@@ -1,4 +1,5 @@
 # Combine-Pdf.ps1
+# Example usage .\Combine-Pdf.ps1 -Output Final.pdf (ls tmp-*.pdf)
 Param (
     [Parameter(
         Mandatory = $true,
